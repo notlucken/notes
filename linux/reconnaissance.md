@@ -2,11 +2,11 @@
 
 The **Reconnaissance** phase refers to the process of gathering Informatin about the Target System, including identifying devices and services on the network, and identifying potential vulnerabilities in the operating systems and applications used on the target.
 
-### Identifying a Target
+## Identifying a Target
 
 To identify a target, you can use a few tools of Linux:
 
-#### arp-scan
+### arp-scan
 
 You can use the tool called **arp-scan** to enumerate all devices on your network.
 
@@ -16,7 +16,7 @@ sudo arp-scan --localnet
 
 This will scan your local network and show the MAC and IP addresses of connected devices.
 
-#### fping
+### fping
 
 fping is a tool that can be used to ping multiple hosts in parallel, making it faster than the regular ping command.
 
@@ -28,7 +28,7 @@ This will scan all IP addresses in the range of 192.168.1.0 to 192.168.1.255 and
 
 Now that we identified the target, we can proceed to Reconnaissance phase.
 
-### Nmap
+## Nmap
 
 Nmap is a powerful tool for network exploration and security auditing that can be used for reconnaissance in a pentesting engagement.
 
@@ -44,7 +44,7 @@ If you're in Windows:
 
 [Nmap in Windows](https://nmap.org/download.html)
 
-#### What I recommend to do to Scan
+### What I recommend to do to Scan
 
 What I do everytime that I do an Scan to a device, it's this:
 
