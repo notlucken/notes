@@ -7,3 +7,8 @@
 ## How can I start in hacking?
 
 I started seeing videos of S4vitaar, in [Youtube ](https://www.youtube.com/@s4vitar)and [Twitch](https://twitch.tv/s4vitaar). He's a big inspiration to me, so I follow him in everything he does.
+
+## Which system do you recommend to use?
+
+I always will be recommending [Kali](https://kali.org) if you're getting started.\
+After that, I recommend [Parrot OS.](https://parrotsec.org)

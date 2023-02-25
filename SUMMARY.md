@@ -2,22 +2,23 @@
 
 ## 😺 welcome
 
-* [👾 whoami](README.md)
-* [🕶 socials](welcome/socials.md)
+* [whoami](README.md)
+* [socials](about-us/values.md)
 
 ## 🚀 Getting Started in Hacking
 
 * [Starting](getting-started-in-hacking/starting.md)
-* [Platforms](getting-started-in-hacking/platforms.md)
-* [Courses](getting-started-in-hacking/courses.md)
+* [Platforms](about-us/vision-mission-and-focus/vision.md)
+* [Courses](about-us/vision-mission-and-focus/mission.md)
 
 ## 🐧 Linux
 
 * [Reconnaissance](linux/reconnaissance.md)
+* [Enumeration](linux/enumeration.md)
 
 ## 🪟 Windows
 
-* [👋 Meet the Team!](windows/meet-the-team.md)
+* [👋 Meet the Team!](team/meet-the-team.md)
 
 ## Collaborating
 
