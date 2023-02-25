@@ -70,7 +70,7 @@ Some of the default configutarion settings:
 
 Nmap can tell you if there's enable anonymous login:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Nmap report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Nmap report</p></figcaption></figure>
 
 ### vsFTPd exploits
 
