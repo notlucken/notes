@@ -13,17 +13,21 @@
 
 ## 🐧 Linux
 
-* [Reconnaissance](linux/reconnaissance.md)
-* [Enumeration](linux/enumeration.md)
+* [Linux Privilege Escalation](linux/linux-privilege-escalation.md)
 
 ## 🪟 Windows
 
 * [👋 Meet the Team!](team/meet-the-team.md)
 
-## Collaborating
+## ⛑ Network Services
 
-* [🤝 How we Work Together](collaborating/how-we-work-together.md)
-* [📅 Meetings](collaborating/meetings.md)
+* [HTTP/HTTPS](network-services/http-https.md)
+* [21 - FTP](network-services/21-ftp.md)
+
+## 🪟 Recognaissancement
+
+* [Identifying a Target](recognaissancement/reconnaissance.md)
+* [Enumeration](recognaissancement/enumeration.md)
 
 ## Policies
 

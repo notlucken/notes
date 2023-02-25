@@ -1,8 +1,6 @@
-# Reconnaissance
+# Identifying a Target
 
 The **Reconnaissance** phase refers to the process of gathering Informatin about the Target System, including identifying devices and services on the network, and identifying potential vulnerabilities in the operating systems and applications used on the target.
-
-## Identifying a Target
 
 To identify a target, you can use a few tools of Linux:
 
