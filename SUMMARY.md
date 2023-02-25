@@ -56,7 +56,7 @@
 
 ## ⚓ Tools
 
-* [crackmapexec](crackmapexec.md)
+* [crackmapexec](tools/crackmapexec.md)
 
 ## 🛃 CMS
 
