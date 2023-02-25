@@ -7,7 +7,7 @@
 
 ## 🚀 Getting Started in Hacking
 
-* [Starting](getting-started-in-hacking/starting.md)
+* [FAQ](getting-started-in-hacking/starting.md)
 * [Platforms](about-us/vision-mission-and-focus/vision.md)
 * [Courses](about-us/vision-mission-and-focus/mission.md)
 
@@ -20,7 +20,10 @@
 
 * [21 - FTP](network-services/21-ftp.md)
 * [22 - SSH](network-services/22-ssh.md)
+* [23 - telnet](network-services/23-telnet.md)
 * [25 - SMTP](network-services/25-smtp.md)
+* [80, 8080, 443 - Web](network-services/80-8080-443-web.md)
+* [135, 445 -SMB](network-services/135-445-smb.md)
 
 ## 🐧 Linux
 
