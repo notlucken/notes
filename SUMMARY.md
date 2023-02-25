@@ -11,24 +11,30 @@
 * [Platforms](about-us/vision-mission-and-focus/vision.md)
 * [Courses](about-us/vision-mission-and-focus/mission.md)
 
-## 🐧 Linux
-
-* [Linux Privilege Escalation](linux/linux-privilege-escalation.md)
-
-## 🪟 Windows
-
-* [👋 Meet the Team!](team/meet-the-team.md)
-
-## ⛑ Network Services
-
-* [HTTP/HTTPS](network-services/http-https.md)
-* [21 - FTP](network-services/21-ftp.md)
-
 ## 🪟 Recognaissancement
 
 * [Identifying a Target](recognaissancement/reconnaissance.md)
 * [Enumeration](recognaissancement/enumeration.md)
 
-## Policies
+## ⛑ Network Services
 
-* [🌴 Requesting Time Off](policies/requesting-time-off.md)
+* [21 - FTP](network-services/21-ftp.md)
+* [22 - SSH](network-services/22-ssh.md)
+* [25 - SMTP](network-services/25-smtp.md)
+
+## 🐧 Linux
+
+* [Reverse Shell Cheatsheet](linux/reverse-shell-cheatsheet.md)
+* [Linux Privilege Escalation](linux/linux-privilege-escalation.md)
+
+## 🪟 Windows
+
+* [Windows Privilege Escalation](windows/windows-privilege-escalation.md)
+
+## ✍ Theory
+
+* [HTTP/HTTPS](theory/http-https.md)
+
+## Web Pentesting
+
+* [🌴 Requesting Time Off](web-pentesting/requesting-time-off.md)
