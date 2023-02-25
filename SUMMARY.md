@@ -55,7 +55,7 @@
 
 ## ⚓ Tools
 
-* [🌴 Requesting Time Off](tools/requesting-time-off.md)
+* [crackmapexec](crackmapexec.md)
 
 ## 🛃 CMS
 
