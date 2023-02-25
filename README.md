@@ -1,4 +1,4 @@
-# ⭐ whoami
+# 👾 whoami
 
 My name is Lucca. 21 yo. Argentinian and World Champion.  ⭐⭐⭐
 

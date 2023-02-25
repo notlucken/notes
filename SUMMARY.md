@@ -1,21 +1,23 @@
 # Table of contents
 
-## 🐧 Copy of Linux
+## 😺 welcome
 
-* [⭐ whoami](README.md)
-* [👄 socials](copy-of-linux/socials.md)
-* [🚀 Vision, Mission & Focus](copy-of-linux/vision-mission-and-focus/README.md)
-  * [Vision](copy-of-linux/vision-mission-and-focus/vision.md)
-  * [Mission](copy-of-linux/vision-mission-and-focus/mission.md)
-  * [Focus](copy-of-linux/vision-mission-and-focus/focus.md)
+* [👾 whoami](README.md)
+* [🕶 socials](welcome/socials.md)
+
+## 🚀 Getting Started in Hacking
+
+* [Starting](getting-started-in-hacking/starting.md)
+* [Platforms](getting-started-in-hacking/platforms.md)
+* [Courses](getting-started-in-hacking/courses.md)
 
 ## 🐧 Linux
 
-* [Page 1](linux/page-1.md)
+* [Reconnaissance](linux/reconnaissance.md)
 
-## Team
+## 🪟 Windows
 
-* [👋 Meet the Team!](team/meet-the-team.md)
+* [👋 Meet the Team!](windows/meet-the-team.md)
 
 ## Collaborating
 
