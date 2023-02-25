@@ -1,3 +1,2 @@
-
-# Crackmapexec
+# crackmapexec
 

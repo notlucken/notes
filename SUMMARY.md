@@ -15,7 +15,7 @@
 
 * [Identifying a Target](recognaissancement/reconnaissance.md)
 * [Enumeration](recognaissancement/enumeration.md)
-* [Web Enumeration](Web%20Enumeration.md)
+* [Web Enumeration](recognaissancement/webenumeration.md)
 
 ## ⛑ Network Services
 
@@ -56,7 +56,7 @@
 
 ## ⚓ Tools
 
-* [crackmapexec](crackmapexec.md)
+* [crackmapexec](tools/crackmapexec.md)
 
 ## 🛃 CMS
 
