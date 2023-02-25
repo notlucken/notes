@@ -4,7 +4,7 @@ The **Enumeration** phase, on the other hand, refers to the process of gathertin
 
 Here are some tips for enumeration:
 
-### HTTP / HTTPS
+## HTTP / HTTPS
 
 What we have to know before we can enumerate an HTTP / HTTPS Server:
 
@@ -15,3 +15,7 @@ What we have to know before we can enumerate an HTTP / HTTPS Server:
 | :80, :8080          | Port that is being used to access |
 | /index.php,html,etc | File that is being accessed       |
 | ?file=welcome.php   | Parameter inside the URL          |
+
+## Request
+
+### What is a Request
