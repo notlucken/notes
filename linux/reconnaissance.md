@@ -71,6 +71,8 @@ Why I do this:
 
 After the command, the output will be some like this:&#x20;
 
+<figure><img src="../.gitbook/assets/scan.png" alt=""><figcaption></figcaption></figure>
+
 We can use a tool called **extractPorts** (S4vitar) to extract the open ports and copy them in out clipboard:
 
 ```bash
@@ -97,6 +99,8 @@ sudo apt install xclip
 
 So the output of extracPorts will be this:
 
+<figure><img src="../.gitbook/assets/extractPorts.png" alt=""><figcaption></figcaption></figure>
+
 Now the ports will be copied into our clipboard, and we can proceed with the next command:
 
 ```bash
@@ -112,5 +116,7 @@ Explanation:
 | -oN targeted | Export the information in a legible format into the file named targeted |
 
 The output file of the previous command will be something like this:&#x20;
+
+<figure><img src="../.gitbook/assets/targeted_output.png" alt=""><figcaption></figcaption></figure>
 
 So we can use this to proceed with the **Enumeration** phase.
