@@ -27,6 +27,8 @@
 
 ## 🐧 Linux
 
+* [Docker](linux/docker.md)
+* [Buffer Overflow](linux/buffer-overflow.md)
 * [Reverse Shell Cheatsheet](linux/reverse-shell-cheatsheet.md)
 * [Linux Privilege Escalation](linux/linux-privilege-escalation.md)
 
@@ -36,8 +38,28 @@
 
 ## ✍ Theory
 
+* [Pivoting](theory/pivoting.md)
 * [HTTP/HTTPS](theory/http-https.md)
 
-## Web Pentesting
+## 🕸 Web Pentesting
 
-* [🌴 Requesting Time Off](web-pentesting/requesting-time-off.md)
+* [SQLi](web-pentesting/sqli.md)
+* [NoSQL](web-pentesting/nosql.md)
+* [XSS](web-pentesting/xss.md)
+* [LFI](web-pentesting/lfi.md)
+* [RFI](web-pentesting/rfi.md)
+* [XXE](web-pentesting/xxe.md)
+* [SSRF](web-pentesting/ssrf.md)
+* [SSI](web-pentesting/ssi.md)
+* [SSTI](web-pentesting/ssti.md)
+
+## ⚓ Tools
+
+* [🌴 Requesting Time Off](tools/requesting-time-off.md)
+
+## 🛃 CMS
+
+* [Wordpress](cms/wordpress.md)
+* [Joomla!](cms/joomla.md)
+* [Drupal](cms/drupal.md)
+* [Moodle](cms/moodle.md)

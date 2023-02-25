@@ -15,4 +15,14 @@ Here are some tips for enumeration:
 
 Remember that enumeration is just one phase of pentesting, and it's important to use a comprehensive approach that includes other phases, such as vulnerability scanning and exploitation. Also, ensure that you have the appropriate permissions and authorization before performing any enumeration or other activities on the target system.
 
+
+
+## Web Enumeration
+
+We can use tools like gobuster, wfuzz, ffuf, etc. To enumerate directories in a web.
+
+```bash
+gobuster dir -u http://<TARGET> -w <WORDLIST> -t <THREADS> -x php,html,txt,asp,js
+```
+
 ###
