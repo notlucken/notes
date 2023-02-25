@@ -1,14 +1,17 @@
 # Table of contents
 
-* [⭐ Welcome](README.md)
+## 🐧 Copy of Linux
 
-## About us
+* [⭐ whoami](README.md)
+* [👄 socials](copy-of-linux/socials.md)
+* [🚀 Vision, Mission & Focus](copy-of-linux/vision-mission-and-focus/README.md)
+  * [Vision](copy-of-linux/vision-mission-and-focus/vision.md)
+  * [Mission](copy-of-linux/vision-mission-and-focus/mission.md)
+  * [Focus](copy-of-linux/vision-mission-and-focus/focus.md)
 
-* [🚀 Vision, Mission & Focus](about-us/vision-mission-and-focus/README.md)
-  * [Vision](about-us/vision-mission-and-focus/vision.md)
-  * [Mission](about-us/vision-mission-and-focus/mission.md)
-  * [Focus](about-us/vision-mission-and-focus/focus.md)
-* [💖 Values](about-us/values.md)
+## 🐧 Linux
+
+* [Page 1](linux/page-1.md)
 
 ## Team
 
