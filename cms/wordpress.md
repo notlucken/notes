@@ -1,7 +1,5 @@
 # Wordpress
 
-## Wordpress
-
 ### Basic Information
 
 #### Themes files

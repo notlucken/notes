@@ -69,7 +69,7 @@ Why I do this:
 
 After the command, the output will be some like this:&#x20;
 
-<figure><img src="../.gitbook/assets/scan (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scan.png" alt=""><figcaption></figcaption></figure>
 
 We can use a tool called **extractPorts** (S4vitar) to extract the open ports and copy them in out clipboard:
 
