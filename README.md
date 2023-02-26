@@ -1,8 +1,5 @@
-# whoami
+# welcome :D
 
-My name is Lucca. 21 yo. Argentinian and World Champion.  ⭐⭐⭐
+Welcome to notlucken's pentesting notes. Here you will find all my notes of pentesting, all what i'm learning at the moment, exploiting techniques, etc.
 
-CyberSec Leaner. I'll posting everything that I know.
-
-<figure><img src=".gitbook/assets/alexlex-designs-alien-x-selfie.jpg" alt=""><figcaption></figcaption></figure>
-
+<figure><img src=".gitbook/assets/158023.png" alt=""><figcaption><p>The best player of the world.</p></figcaption></figure>

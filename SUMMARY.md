@@ -2,7 +2,8 @@
 
 ## 😺 welcome
 
-* [whoami](README.md)
+* [welcome :D](README.md)
+* [whoami](<README (1).md>)
 * [socials](about-us/values.md)
 
 ## 🚀 Getting Started in Hacking
