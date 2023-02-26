@@ -11,11 +11,11 @@
 * [Platforms](about-us/vision-mission-and-focus/vision.md)
 * [Courses](about-us/vision-mission-and-focus/mission.md)
 
-## 🪟 Recognaissancement
+## 🪟 Reconnaissance
 
-* [Identifying a Target](recognaissancement/reconnaissance.md)
-* [Enumeration](recognaissancement/enumeration.md)
-* [Web Enumeration](recognaissancement/webenumeration.md)
+* [Identifying a Target](reconnaissance/reconnaissance.md)
+* [Enumeration](reconnaissance/enumeration.md)
+* [Web Enumeration](reconnaissance/webenumeration.md)
 
 ## ⛑ Network Services
 
