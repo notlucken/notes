@@ -41,6 +41,7 @@
 
 * [Pivoting](theory/pivoting.md)
 * [HTTP/HTTPS](theory/http-https.md)
+* [TTY Treatment](theory/tty-treatment.md)
 
 ## 🕸 Web Pentesting
 
