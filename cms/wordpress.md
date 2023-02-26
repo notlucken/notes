@@ -1,8 +1,8 @@
 # Wordpress
 
-### Basic Information
+## Basic Information
 
-#### Themes files
+### Themes files
 
 They're located at `/wp-content/themes/` so if you gain access to the WordPress Admin panel, you can modify **404.php** of some theme, and then go to `/wp-content/themes/twentytwenty/404.php`
 
@@ -14,7 +14,7 @@ They're located at `/wp-content/themes/` so if you gain access to the WordPress 
 | xmlrpc.php    | File that represents a feature that enables data to be transmited by HTTP with XML mechanism. You can use this [script](https://github.com/notlucken/xmlrpc\_bruteforce/) to bruteforce users and passwords. |
 | license.txt   | Userful information like the version of WordPress                                                                                                                                                            |
 
-### Plugins Enumeration
+## Plugins Enumeration
 
 To identify plugins of a Wordpress site, we can use a Script created by S4vitar but I improved it and uploaded to GitHub:
 
@@ -63,7 +63,7 @@ fi
 
 The usage is simple, only do a `chmod +x enumWordPressPlugins.sh` and later \`\`./enumWordpressPlugins.sh
 
-### Plugin Explotations
+## Plugin Explotations
 
 #### PHP Plugin to RCE
 
