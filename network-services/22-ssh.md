@@ -40,3 +40,36 @@ Tool : [SSH User Enumeration](https://github.com/epi052/cve-2018-15473)
 user@localhost~$ ./ssh-username-enum.py -t <THREADS> -w <WORDLIST> <IP>
 [+] <USERNAME> found!
 ```
+
+## Common locations
+
+### Auth log file
+
+```
+/var/log/auth.log
+```
+
+### sshd.conf
+
+```
+/etc/ssh/sshd.conf
+```
+
+### id\_rsa
+
+```
+/home/<USER>/.ssh/
+```
+
+## Generating id\_rsa & id\_rsa.pub
+
+```
+user@localhost~$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which t o save the key (/home/user/.ssh/id_rsa):
+Enter passphrase (empty for not passphrase):
+Enter same passphrase again:
+Your identiification key has been saved in /home/user/.ssh/id_rsa
+Your public key has been saved in /home/user/.ssh/id_rsa.pub
+```
+
