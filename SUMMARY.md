@@ -2,7 +2,7 @@
 
 ## 😺 welcome
 
-* [welcome :D](README.md)
+* [notlucken's pentesting notes](README.md)
 * [whoami](<README (1).md>)
 * [socials](about-us/values.md)
 
